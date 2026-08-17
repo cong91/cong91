@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-banner.png" width="100%" alt="Cong Nguyen Thanh — Agent Memory and V-Claw" />
+</p>
+
 # Cong Nguyen Thanh
 
 Senior Full-Stack Engineer and Technical Advisor in Ho Chi Minh City.
