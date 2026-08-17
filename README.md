@@ -1,100 +1,50 @@
-<p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Cong Nguyen Thanh — I build the systems behind the product" />
-</p>
+# Cong Nguyen Thanh
 
-## A short introduction
+Senior Full-Stack Engineer and Technical Advisor in Ho Chi Minh City.
 
-I am **Cong Nguyen Thanh**, a Senior Full-Stack Engineer and Technical Advisor based in Ho Chi Minh City.
+I have spent more than ten years building software across web platforms, backend services, mobile applications, cloud infrastructure, robotics, and cross-platform games. I am most useful when a product has difficult technical edges: unclear system boundaries, realtime integration, deployment constraints, or a team that needs architecture to become working software.
 
-For more than a decade, I have worked where product ambition meets engineering reality: shaping architecture, writing production code, untangling difficult integrations, and helping teams move from an interesting idea to a reliable release.
+My current focus is practical AI infrastructure: tools that help agents remember context, execute real work, and remain understandable to the people operating them.
 
-I have built across web platforms, backend services, mobile applications, cloud infrastructure, robotics simulation, and cross-platform games. My recent work is centered on AI-assisted engineering and the systems that help software teams retain context, make better decisions, and deliver with less friction.
-
-[See the work](#selected-work) · [Browse all repositories](https://github.com/cong91?tab=repositories) · [Start a conversation](mailto:thanhcong191@gmail.com)
-
----
+[Email](mailto:thanhcong191@gmail.com) · [All repositories](https://github.com/cong91?tab=repositories)
 
 ## Selected work
 
-### 01 — [Agent Smart Memo](https://github.com/cong91/agent-smart-memo)
-**A memory system for coding agents.**
+### Agent Memory
 
-I built this around a practical problem: capable agents still lose the thread between conversations, repositories, tasks, and decisions. Agent Smart Memo brings together runtime memory, structured knowledge, semantic retrieval, and project-aware indexing in one operational layer.
+A project-aware memory system for coding agents.
 
-`TypeScript` · `Agent memory` · `Retrieval` · `Developer tooling`
+I built Agent Memory because useful engineering context is usually scattered across conversations, source repositories, task trackers, and local notes. The system combines structured memory, semantic retrieval, project indexing, knowledge capture, and runtime integrations so an agent can continue work without reconstructing the project from scratch.
 
-### 02 — [Cursor Starter Kit](https://github.com/cong91/cursor-starterkit)
-**A serious starting point for AI-assisted software work.**
+The public implementation is currently published as [`agent-smart-memo`](https://github.com/cong91/agent-smart-memo) and the npm package [`@mrc2204/agent-smart-memo`](https://www.npmjs.com/package/@mrc2204/agent-smart-memo).
 
-A one-command setup that turns Cursor into a repeatable engineering environment: skills, rules, hooks, MCP servers, project memory, task tracking, and verification are arranged as a workflow rather than a collection of prompts.
+**Built with:** TypeScript, SQLite, Qdrant, graph memory, semantic retrieval, OpenClaw, and OpenCode integrations.
 
-`JavaScript` · `MCP` · `Engineering workflow` · `Automation`
+### [V-Claw](https://v-claw.org/)
 
-### 03 — [OpenClaw × OpenCode Bridge](https://github.com/cong91/openclaw-opencode-bridge)
-**The plumbing behind multi-project agent work.**
+An approachable AI Agent platform for teams and users who should not need to become infrastructure specialists before they can automate useful work.
 
-A bridge for hybrid execution, callbacks, runtime lifecycle control, and observability. The focus is not novelty; it is keeping agent runs understandable, routed to the right project, and safe to operate at scale.
-
-`TypeScript` · `Runtime systems` · `Orchestration`
-
-### 04 — [Hermes Wiki Automation](https://github.com/cong91/hermes-wiki-automation)
-**Make valuable work survive the session.**
-
-A tested pipeline that extracts durable answers from agent sessions and files them into an Obsidian knowledge system. It reflects a simple belief: good engineering decisions should not disappear when a chat window closes.
-
-`Python` · `Knowledge systems` · `Automation`
-
-<details>
-  <summary><strong>More projects and foundations</strong></summary>
-  <br />
-
-- [Agent Knowledge Distiller](https://github.com/cong91/agent-knowledge-distiller) — curates high-quality agent memories into a reusable knowledge collection.
-- [OpenClaw Jira Tools](https://github.com/cong91/openclaw-jira-tools) — connects agent workflows with work management.
-- [Kotlin Android MVVM Boilerplate](https://github.com/cong91/Kotlin_Android_MVVM_BolierPlate) and [Kotlin Template](https://github.com/cong91/KotlinTemplate) — earlier foundations for maintainable Android applications.
-
-</details>
-
----
-
-## The work behind the work
-
-**Product systems**  
-Full-stack applications, APIs, realtime interaction, service boundaries, reliability, and delivery.
-
-**AI engineering**  
-Agent workflows, RAG, function calling, context engineering, evaluation, and persistent project memory.
-
-**Cloud and data**  
-AWS, Docker, Terraform, PostgreSQL, Redis, Kafka, ClickHouse, CI/CD, and production operations.
-
-**Mobile and interactive**  
-Flutter, Kotlin, Android, BLE, USB serial, C++, Unity, Cocos Creator, and Webots.
-
-**Technical leadership**  
-Architecture, code review, mentoring, integration problem-solving, release planning, and production readiness.
-
----
-
-## A career built by shipping
-
-**Now** — Technical Advisor, STEAM for Vietnam Robotics  
-Guiding architecture and delivery across browser-based robotics, simulation services, realtime communication, cloud, mobile, and automated evaluation.
-
-**2024–2026** — Chief Technology Officer, LINKTO  
-Led hands-on technical direction for an influencer-commerce platform built on microservices, event-driven data flows, analytics, AI features, and AWS infrastructure.
-
-**2023–2025** — Senior Game Developer, A5Labs / WPT Global  
-Built native Cocos Creator integrations across Android, iOS, Windows, and macOS, with a focus on rendering, memory, compatibility, and CI/CD.
-
-**2015–2019** — Mobile Technical Leader, Sun*  
-Led architecture and delivery for Android products in navigation, healthcare communication, employment, and location services.
-
----
-
-> I care about the part after the architecture diagram: whether the system is clear enough to build, robust enough to run, and honest enough to maintain.
+V-Claw packages the difficult parts of an OpenClaw-based setup into a Windows-first product with guided installation, portable and installed modes, model access, Skills, updates, and support. Its goal is execution rather than another chat interface: connecting agents to files, browsers, documents, business workflows, and custom automation.
 
 <p align="center">
-  <a href="https://github.com/cong91?tab=repositories"><strong>Explore the repository archive</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:thanhcong191@gmail.com"><strong>Contact me</strong></a>
+  <a href="https://v-claw.org/">
+    <img src="./assets/v-claw-launcher.png" width="100%" alt="V-Claw desktop launcher showing the guided AI Agent installation workflow" />
+  </a>
 </p>
+
+[Product website](https://v-claw.org/) · [Bundle and checksums](https://github.com/cong91/v-claw-bundle) · [Desktop releases](https://github.com/cong91/v-claw-release/releases)
+
+**Built with:** Electron, Node.js, OpenClaw, React, Vite, PowerShell packaging, and an extensible Skill system.
+
+## Experience
+
+- **Technical Advisor, STEAM for Vietnam Robotics** — architecture and delivery across browser-based robotics, simulation services, realtime communication, cloud, mobile, and automated evaluation.
+- **Chief Technology Officer, LINKTO** — hands-on technical direction for an influencer-commerce platform built on microservices, event-driven data flows, analytics, AI features, and AWS infrastructure.
+- **Senior Game Developer, A5Labs / WPT Global** — native Cocos Creator integrations across Android, iOS, Windows, and macOS.
+- **Mobile Technical Leader, Sun\*** — architecture, mentoring, and production delivery for Android products in navigation, healthcare communication, employment, and location services.
+
+## How I work
+
+I stay close to implementation. Architecture should make the next decision easier, testing should reflect real failure modes, and production concerns should shape the design before release day.
+
+I care about software that a team can understand, operate, and improve after the first version ships.
