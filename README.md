@@ -1,3 +1,4 @@
+<!-- GitHub profile README -->
 <div align="center">
   <img src="./assets/profile-banner.svg" width="100%" alt="Cong Nguyen Thanh — Senior Full-Stack Engineer and Technical Advisor" />
 </div>
