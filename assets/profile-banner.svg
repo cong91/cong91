@@ -1,46 +1,62 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
-  <title id="title">Cong Nguyen Thanh</title>
-  <desc id="description">Senior Full-Stack Engineer and Technical Advisor working across product engineering, AI systems, cloud infrastructure, mobile, and robotics.</desc>
-  <style>
-    .bg { fill: #f6f8fa; }
-    .ink { fill: #20272f; }
-    .muted { fill: #57606a; }
-    .accent { fill: #2f6f7e; }
-    .line { stroke: #d0d7de; }
-    .node { fill: #ffffff; stroke: #2f6f7e; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    @media (prefers-color-scheme: dark) {
-      .bg { fill: #0d1117; }
-      .ink { fill: #f0f6fc; }
-      .muted { fill: #8b949e; }
-      .accent { fill: #58a6b7; }
-      .line { stroke: #30363d; }
-      .node { fill: #161b22; stroke: #58a6b7; }
-    }
-  </style>
-  <rect class="bg" width="1280" height="420" rx="6" />
-  <path class="line" d="M0 84H1280M0 336H1280" />
-  <rect class="accent" x="72" y="76" width="64" height="4" />
-  <text class="muted mono" x="72" y="55" font-size="15" letter-spacing="1.8">ENGINEERING PROFILE / HO CHI MINH CITY</text>
-  <text class="ink sans" x="72" y="164" font-size="54" font-weight="700">Cong Nguyen Thanh</text>
-  <text class="accent sans" x="74" y="211" font-size="25" font-weight="600">Senior Full-Stack Engineer · Technical Advisor</text>
-  <text class="muted sans" x="74" y="260" font-size="19">Product systems · AI engineering · Cloud platforms · Mobile &amp; native · Robotics</text>
-  <text class="ink mono" x="74" y="312" font-size="15">ARCHITECT  /  BUILD  /  SHIP  /  IMPROVE</text>
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cong Nguyen Thanh — Engineering across systems, products and platforms</title>
+  <desc id="desc">Senior Full-Stack Engineer and Technical Advisor with more than ten years of experience.</desc>
+  <defs>
+    <linearGradient id="surface" x1="80" y1="24" x2="1190" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171B20"/>
+      <stop offset="1" stop-color="#0B0E11"/>
+    </linearGradient>
+    <radialGradient id="signal" cx="0" cy="0" r="1" gradientTransform="translate(1060 100) rotate(132) scale(490 420)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72D6B2" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#72D6B2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="520" rx="20" fill="url(#surface)"/>
+  <rect width="1280" height="520" rx="20" fill="url(#signal)"/>
+  <rect x="1" y="1" width="1278" height="518" rx="19" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="2"/>
+  <path d="M720 0H1280V520H720Z" fill="url(#grid)"/>
 
-  <g opacity="0.94">
-    <path class="line" stroke-width="2" d="M925 118L1030 85L1141 145L1098 252L976 286L887 218L925 118Z" />
-    <path class="line" stroke-width="2" d="M925 118L976 286M1030 85L1098 252M887 218L1141 145M925 118L1098 252M1030 85L887 218" />
-    <circle class="node" cx="925" cy="118" r="12" stroke-width="3" />
-    <circle class="node" cx="1030" cy="85" r="12" stroke-width="3" />
-    <circle class="node" cx="1141" cy="145" r="12" stroke-width="3" />
-    <circle class="node" cx="1098" cy="252" r="12" stroke-width="3" />
-    <circle class="node" cx="976" cy="286" r="12" stroke-width="3" />
-    <circle class="node" cx="887" cy="218" r="12" stroke-width="3" />
-    <circle class="accent" cx="1011" cy="186" r="20" />
-    <text x="1002" y="192" fill="#ffffff" class="mono" font-size="15" font-weight="700">C</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="64" y="52" width="174" height="32" rx="16" fill="#72D6B2" fill-opacity=".12" stroke="#72D6B2" stroke-opacity=".38"/>
+    <circle cx="82" cy="68" r="4" fill="#72D6B2"/>
+    <text x="96" y="73" fill="#A8E8D1" font-size="13" letter-spacing="1.2">OPEN TO BUILD</text>
+    <text x="66" y="460" fill="#727C87" font-size="13" letter-spacing="1.6">HCMC / VIETNAM</text>
+    <text x="1190" y="460" text-anchor="end" fill="#727C87" font-size="13" letter-spacing="1.6">GITHUB.COM/CONG91</text>
   </g>
 
-  <text class="muted mono" x="72" y="382" font-size="14">10+ YEARS ACROSS SOFTWARE PRODUCTS, PLATFORMS, AND TECHNICAL LEADERSHIP</text>
-  <text class="muted mono" x="1136" y="382" text-anchor="end" font-size="14">github.com/cong91</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="64" y="154" fill="#7F8994" font-size="20" font-weight="600" letter-spacing="1">CONG NGUYEN THANH</text>
+    <text x="60" y="230" fill="#F3F6F8" font-size="60" font-weight="760">Engineering across</text>
+    <text x="60" y="298" fill="#F3F6F8" font-size="60" font-weight="760">systems, products</text>
+    <text x="60" y="366" fill="#72D6B2" font-size="60" font-weight="760">and platforms.</text>
+    <text x="64" y="414" fill="#9CA6AF" font-size="18">Senior Full-Stack Engineer  ·  Technical Advisor  ·  Hands-on Builder</text>
+  </g>
+
+  <g transform="translate(835 85)">
+    <circle cx="150" cy="150" r="145" stroke="#FFFFFF" stroke-opacity=".07"/>
+    <circle cx="150" cy="150" r="108" stroke="#FFFFFF" stroke-opacity=".08" stroke-dasharray="4 8"/>
+    <circle cx="150" cy="150" r="69" fill="#72D6B2" fill-opacity=".06" stroke="#72D6B2" stroke-opacity=".34"/>
+    <circle cx="150" cy="150" r="43" fill="#11161A" stroke="#72D6B2"/>
+    <text x="150" y="161" text-anchor="middle" fill="#E7FFF6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="31" font-weight="700">CN</text>
+    <path d="M150 42V81M150 219V258M42 150H81M219 150H258" stroke="#72D6B2" stroke-opacity=".68" stroke-width="2"/>
+    <path d="M74 74L102 102M198 198L226 226M226 74L198 102M102 198L74 226" stroke="#72D6B2" stroke-opacity=".4"/>
+    <g fill="#72D6B2">
+      <circle cx="150" cy="42" r="5"/><circle cx="150" cy="258" r="5"/><circle cx="42" cy="150" r="5"/><circle cx="258" cy="150" r="5"/>
+    </g>
+    <g fill="#F3F6F8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1">
+      <text x="150" y="17" text-anchor="middle">AI SYSTEMS</text>
+      <text x="150" y="294" text-anchor="middle">MOBILE / NATIVE</text>
+      <text x="-6" y="154" text-anchor="end">PRODUCT</text>
+      <text x="306" y="154">CLOUD</text>
+    </g>
+  </g>
+
+  <rect x="60" y="485" width="1160" height="1" fill="#FFFFFF" fill-opacity=".08"/>
+  <rect x="60" y="485" width="270" height="2" fill="#72D6B2"/>
 </svg>

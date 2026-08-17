@@ -1,84 +1,123 @@
-<!-- GitHub profile README -->
-<div align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Cong Nguyen Thanh — Senior Full-Stack Engineer and Technical Advisor" />
-</div>
+<p align="center">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Cong Nguyen Thanh — Engineering across systems, products and platforms" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/cong91?tab=repositories"><img src="https://img.shields.io/badge/171-public_repositories-161B22?style=for-the-badge&logo=github&logoColor=white" alt="171 public repositories" /></a>
+  <img src="https://img.shields.io/badge/10%2B-years_building_software-72D6B2?style=for-the-badge&labelColor=161B22" alt="More than ten years building software" />
+  <a href="mailto:thanhcong191@gmail.com"><img src="https://img.shields.io/badge/available_for_senior_roles-161B22?style=for-the-badge&logo=maildotru&logoColor=72D6B2" alt="Available for senior engineering roles" /></a>
+</p>
 
 <br />
 
-I design and ship software across **product, platform, and infrastructure boundaries**. My work spans full-stack web systems, distributed backends, mobile and native integrations, AI-assisted engineering, robotics simulation, and cross-platform games.
-
-Currently focused on **coding-agent infrastructure**, **durable memory systems**, and **developer workflows** that make AI-assisted engineering more reliable.
-
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <strong>Product & Platform Engineering</strong><br /><br />
-      Next.js, React, TypeScript, Node.js, NestJS, Python, PostgreSQL, Redis, Kafka, ClickHouse, REST, WebSockets
+    <td width="64%" valign="top">
+      <h2>Build the difficult parts.</h2>
+      <p>
+        I am <strong>Cong Nguyen Thanh</strong>, a Senior Full-Stack Engineer and Technical Advisor with 10+ years of hands-on experience turning complex product ideas into dependable systems. I work from architecture through implementation, delivery, and production support.
+      </p>
+      <p>
+        Current work: <strong>AI agent infrastructure</strong>, project memory and retrieval, developer workflows, realtime systems, and technical platforms that span web, cloud, mobile, and hardware-adjacent software.
+      </p>
     </td>
-    <td width="50%" valign="top">
-      <strong>AI Engineering</strong><br /><br />
-      Agent workflows, memory and retrieval systems, RAG, function calling, context engineering, evaluation, developer tooling
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Cloud & Delivery</strong><br /><br />
-      AWS, Docker, Terraform, GitHub Actions, CI/CD, Linux, Cloudflare, production operations
-    </td>
-    <td width="50%" valign="top">
-      <strong>Mobile, Native & Interactive</strong><br /><br />
-      Flutter, Kotlin, Android, BLE, USB serial, C++, Java, Objective-C, Unity, Cocos Creator, Webots
+    <td width="36%" valign="top">
+      <br />
+      <strong>WORKING FROM</strong><br />
+      Ho Chi Minh City, Vietnam<br /><br />
+      <strong>BEST FIT</strong><br />
+      Senior Full-Stack · Backend · Platform · Tech Lead<br /><br />
+      <strong>OPERATING MODE</strong><br />
+      Architecture + hands-on delivery
     </td>
   </tr>
 </table>
 
-## Selected work
+## Selected systems
 
-### [Agent Smart Memo](https://github.com/cong91/agent-smart-memo)
-A project-aware memory platform for coding agents, combining conversation continuity, structured and semantic memory, repository indexing, and a shared retrieval control plane.
+<p align="center">
+  <img src="./assets/project-covers.svg" width="100%" alt="Four engineering projects: Agent Smart Memo, Cursor Starter Kit, OpenClaw Bridge and Hermes Wiki" />
+</p>
 
-### [Cursor Starter Kit](https://github.com/cong91/cursor-starterkit)
-A one-command setup for a complete AI coding workstation: skills, commands, rules, MCP servers, hooks, project memory, task tracking, and verification workflows.
-
-### [OpenClaw × OpenCode Bridge](https://github.com/cong91/openclaw-opencode-bridge)
-A TypeScript bridge for project-aware hybrid execution, callback orchestration, runtime lifecycle management, and multi-project-safe agent workflows.
-
-### [Hermes Wiki Automation](https://github.com/cong91/hermes-wiki-automation)
-A tested Python automation pipeline that extracts durable answers from agent sessions and files them into a structured Obsidian-based knowledge system.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/cong91/agent-smart-memo">Agent Smart Memo</a></h3>
+      <p>A project-aware memory platform for coding agents: runtime continuity, structured and semantic memory, repository indexing, and a shared retrieval control plane.</p>
+      <sub>TypeScript · Retrieval · Agent memory · Developer tooling</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/cong91/cursor-starterkit">Cursor Starter Kit</a></h3>
+      <p>A one-command AI coding workstation that configures skills, rules, MCP servers, hooks, project memory, task tracking, and verification workflows.</p>
+      <sub>JavaScript · MCP · IDE workflows · Automation</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/cong91/openclaw-opencode-bridge">OpenClaw × OpenCode Bridge</a></h3>
+      <p>A bridge for project-aware hybrid execution, callbacks, runtime lifecycle control, observability, and multi-project-safe agent workflows.</p>
+      <sub>TypeScript · Runtime systems · Orchestration</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/cong91/hermes-wiki-automation">Hermes Wiki Automation</a></h3>
+      <p>A tested pipeline that extracts durable answers from agent sessions and files them into an Obsidian-based engineering knowledge system.</p>
+      <sub>Python · Knowledge systems · Automation</sub>
+    </td>
+  </tr>
+</table>
 
 <details>
-  <summary><strong>More engineering projects</strong></summary>
+  <summary><strong>More open-source work</strong></summary>
   <br />
 
-- [Agent Knowledge Distiller](https://github.com/cong91/agent-knowledge-distiller) — scores, classifies, and curates agent memories into a higher-quality knowledge collection.
-- [OpenClaw Jira Tools](https://github.com/cong91/openclaw-jira-tools) — TypeScript tooling for connecting agent workflows with Jira work management.
-- [Kotlin Android MVVM Boilerplate](https://github.com/cong91/Kotlin_Android_MVVM_BolierPlate) — an Android starter project implementing the MVVM architecture.
-- [Kotlin Template](https://github.com/cong91/KotlinTemplate) — a reusable foundation for Kotlin Android applications.
+- [Agent Knowledge Distiller](https://github.com/cong91/agent-knowledge-distiller) — curation pipeline for scoring, classifying, and preserving high-quality agent memory.
+- [OpenClaw Jira Tools](https://github.com/cong91/openclaw-jira-tools) — tooling that connects agent workflows with work management.
+- [Kotlin Android MVVM Boilerplate](https://github.com/cong91/Kotlin_Android_MVVM_BolierPlate) and [Kotlin Template](https://github.com/cong91/KotlinTemplate) — foundations for maintainable Android applications.
 
 </details>
 
-## Experience
+## Engineering surface area
 
-| Period | Role and focus |
-| --- | --- |
-| **2025 — Present** | **Technical Advisor, STEAM for Vietnam Robotics** — architecture and delivery across browser-based robotics, simulation services, realtime communication, cloud, mobile, and automated evaluation. |
-| **2024 — 2026** | **Chief Technology Officer, LINKTO** — hands-on technical direction for an influencer-commerce platform built on microservices, event-driven data flows, analytics, AI features, and AWS infrastructure. |
-| **2023 — 2025** | **Senior Game Developer, A5Labs / WPT Global** — native Cocos Creator integrations across Android, iOS, Windows, and macOS, with emphasis on rendering, memory, compatibility, and CI/CD. |
-| **2015 — 2019** | **Mobile Technical Leader, Sun\*** — architecture, delivery, mentoring, and production releases for Android products in navigation, healthcare communication, employment, and location services. |
-| **2011 — Present** | **Independent engineering** — mobile, games, technical leadership, AI developer tools, and cross-platform product delivery. |
+<p align="center">
+  <img src="https://img.shields.io/badge/Web-Next.js%20%7C%20React%20%7C%20TypeScript-1E252B?style=flat-square&logo=react&logoColor=72D6B2" alt="Web: Next.js React TypeScript" />
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20NestJS%20%7C%20Python-1E252B?style=flat-square&logo=nodedotjs&logoColor=72D6B2" alt="Backend: Node.js NestJS Python" />
+  <img src="https://img.shields.io/badge/Data-PostgreSQL%20%7C%20Redis%20%7C%20Kafka-1E252B?style=flat-square&logo=postgresql&logoColor=72D6B2" alt="Data: PostgreSQL Redis Kafka" />
+  <img src="https://img.shields.io/badge/Cloud-AWS%20%7C%20Docker%20%7C%20Terraform-1E252B?style=flat-square&logo=docker&logoColor=72D6B2" alt="Cloud: AWS Docker Terraform" />
+  <img src="https://img.shields.io/badge/Native-Flutter%20%7C%20Kotlin%20%7C%20C%2B%2B-1E252B?style=flat-square&logo=flutter&logoColor=72D6B2" alt="Native: Flutter Kotlin C plus plus" />
+  <img src="https://img.shields.io/badge/Interactive-Unity%20%7C%20Cocos%20%7C%20Webots-1E252B?style=flat-square&logo=unity&logoColor=72D6B2" alt="Interactive systems: Unity Cocos Webots" />
+</p>
 
-## Working principles
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>PRODUCT SYSTEMS</strong><br /><br />
+      Full-stack applications, APIs, realtime interaction, service boundaries, reliability, and delivery.
+    </td>
+    <td width="33%" valign="top">
+      <strong>AI ENGINEERING</strong><br /><br />
+      Agent workflows, RAG, function calling, context engineering, evaluation, and persistent project memory.
+    </td>
+    <td width="33%" valign="top">
+      <strong>TECHNICAL LEADERSHIP</strong><br /><br />
+      Architecture, code review, mentoring, integration problem-solving, deployment, and production readiness.
+    </td>
+  </tr>
+</table>
 
-- Start from the system boundary and the user outcome, then choose the technology.
-- Keep architecture close to implementation; important decisions should survive production constraints.
-- Treat tests, observability, deployment, and maintainability as product work.
-- Use AI to strengthen engineering judgment, not replace it.
+## Career path
 
-<div align="center">
-  <br />
-  <a href="https://github.com/cong91?tab=repositories"><strong>Explore repositories</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:thanhcong191@gmail.com"><strong>Contact</strong></a>
+```text
+NOW        Technical Advisor · STEAM for Vietnam Robotics
+2024–2026  Chief Technology Officer · LINKTO
+2023–2025  Senior Game Developer · A5Labs / WPT Global
+2015–2019  Mobile Technical Leader · Sun*
+2011–NOW   Independent engineer across mobile, games, platforms, and AI developer tools
+```
+
+<p align="center">
+  <strong>System thinking. Direct implementation. Software that holds up in production.</strong>
   <br /><br />
-  <sub>Based in Ho Chi Minh City, Vietnam · Open to senior full-stack, backend, platform, and technical leadership opportunities</sub>
-</div>
+  <a href="https://github.com/cong91?tab=repositories">Explore all repositories</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:thanhcong191@gmail.com">Get in touch</a>
+</p>
